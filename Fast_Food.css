@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero{
+    background-image: url(../Photo/a02.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    align-items: center;
+    padding-left:3% ;
+    padding-right: 3%;
+}
+
+li{
+    display: inline-block;
+    padding-left: 70px;
+}
+
+nav{ 
+    background-color: #24252a;
+    padding: 15px;
+}
+
+li,a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition:0.8s;
+}
+
+.logo{
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: .5%;
+    
+}
+
+span{
+    color: #0088a9;
+}
+
+.links a:hover{
+    color: #14acd2;
+    padding: 5px 5px;
+    border-radius: 7px;
+    transform: scale(1.1);
+}
+.links a:hover:active{
+    opacity: 0.1;
+}
+
+button{
+    color: white;
+    background: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:.4s;
+}
+button:hover{
+    transform: scale(1.1);
+    color: #0088a9;
+}
+
+button:hover:active{
+    opacity: 0.1;
+}
+
+nav ul li ul.dropdown li{
+    display: block;
+
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+
+}
+
+nav ul li ul.dropdown{
+    background-color: #24252a;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li:hover ul.dropdown{
+    display: block;
+}
+
+.tem{
+    width: 250px;
+    height: 0px;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#hide{
+    border: none;
+    background-color: #0088a9;
+    border-radius:0px;
+    margin-top: 10px;
+    padding: 0px;
+    padding: 3px;
+    color: aliceblue;
+}
+
+.tem p,ul{
+    background-color: #24252a;
+}
+
+.tem p{
+    padding-bottom: 15px;
+}
+
+.tem ul li{
+    padding-bottom: 5px;
+}
+
+
+    /*Shape ---------------Shape----------------shape------------*/
+.contain{
+    display: list-item;
+    position: absolute;
+    top: 45%;   
+}
+.iteam{
+    display: flex;;
+    color: aliceblue;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 10px;
+    width: 130%;
+    height: 120px;
+    justify-content: space-between;
+    transition: 0.8s;
+}
+.preiteam{
+    background-color: #24252a;
+    width: 185%;
+    height: 82%;
+    border-top-right-radius: 95px;
+    border-bottom-right-radius: 95px;
+    
+}
+.arounded{
+    margin-top: 19%;
+    margin-left: -10%;
+    width: 107px;
+    height:97px;
+}
+.iteam:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+pre{
+    margin-top: 20px;
+}
+
+.iteam2{
+    display: flex;
+    background-color: #24252a;
+    color: aliceblue;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 10px;
+    width: 120%;
+    justify-content: space-between;
+    transition: 0.8s;
+}
+
+.iteam2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.iteam3{
+    display: flex;
+    background-color: #24252a;
+    color: aliceblue;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.8s;
+}
+
+.crounded{
+    margin-left: 20%;
+    
+}
+
+.iteam3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.arounded,.brounded,.crounded{
+    border-radius: 150px;
+    
+}
+
+
+/* section ---------------Chef----------------------*/
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24252a;
+    width: 100%;
+    padding: 170px 30px;
+
+}
+
+.text{
+    padding-right: 100px;
+    
+}
+
+h1{
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    font-size: 25px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.chef{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 15px 10px 15px #0088a9;
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:#1f1f2a;
+}
+.hero{
+    box-sizing: border-box;
+}
+.a{
+    margin-left: 1%;
+    padding-top: 3%;
+}
+.b{
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.c{
+    margin-top: 5%;
+    margin-left: 1%;
+    padding-bottom: 100px;
+}
+img{
+    border-radius: 30px;
+}
+ .card-text{
+    color: white;
+    margin-top: 13%;
+    text-align: center;
+}
+.card-title{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.ca{
+    margin-top: 10%;
+
+}
+
+.btn{
+    margin-left: 23%;
+    margin-top: 10%;
+
+}
+.g{
+    color: rgb(226, 174, 43);
+    margin: 0px;
+
+}
+.k{
+    margin-top: 3px;
+    border-radius: 20px;
+}
+.m{
+    border-radius: 20px;
+}
+.m1{
+    border-radius: 20px;
+ 
+}
